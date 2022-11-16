@@ -1,0 +1,121 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #293251;
+}
+
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.status{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.status p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-info{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.image-icon{
+    width: 300px;
+    height: 128px;
+    background-color: #FFF;
+    
+}
+
+.image-icon img{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    width: 150px;
+}
+
+.temperature{
+    width: 300px;
+    height:60px;
+    margin-top: 20px;
+
+}
+
+.temperature p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature p:hover{
+    
+}
+
+.temperature span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.description{
+    
+}
+
+.description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1em;
+}
+
+.time-and-date{
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
